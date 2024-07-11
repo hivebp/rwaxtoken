@@ -10,7 +10,7 @@ void rwaxtoken::create(
    string token_logo_lg
 )
 {
-    require_auth( name("rwaxrwaxrwax") );
+    require_auth( name("rwax") );
 
     auto sym = maximum_supply.symbol;
     check( sym.is_valid(), "invalid symbol name" );
